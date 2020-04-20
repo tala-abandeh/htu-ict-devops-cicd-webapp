@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SSH@0
   inputs:
-    sshEndpoint: 'Tala'
+    sshEndpoint: 'tala@104.41.155.217'
     runOptions: 'commands'
     commands: 'ls /home'
     readyTimeout: '20000'
